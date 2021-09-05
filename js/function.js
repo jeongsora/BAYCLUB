@@ -41,7 +41,7 @@ $(function(){
 		$("header>.rgnb>ul>li").eq(nowIdx).addClass("on").siblings().removeClass("on");			
 	});
 	
-	$(window).load(function(){
+	$(window).on('load', function(){
 		pageAni(arrTopVal[nowIdx]);
 	});
 	
